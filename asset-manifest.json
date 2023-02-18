@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/AleksandrSdkv/hakaton/static/css/main.6363a14e.css",
+    "main.js": "/AleksandrSdkv/hakaton/static/js/main.1aca1f20.js",
+    "static/media/gteestiprodisplay_bold.woff": "/AleksandrSdkv/hakaton/static/media/gteestiprodisplay_bold.c012aa7da9ad7a8a1773.woff",
+    "static/media/gteestiprodisplay_medium.woff": "/AleksandrSdkv/hakaton/static/media/gteestiprodisplay_medium.08ce741439dff831211e.woff",
+    "static/media/gteestiprodisplay_regular.woff": "/AleksandrSdkv/hakaton/static/media/gteestiprodisplay_regular.d7a05aaaa91eb4e1d5c7.woff",
+    "static/media/Frame.png": "/AleksandrSdkv/hakaton/static/media/Frame.9c45a201310334f84cd0.png",
+    "static/media/gteestiprodisplay_medium.woff2": "/AleksandrSdkv/hakaton/static/media/gteestiprodisplay_medium.f477bd3ab655c6f2d421.woff2",
+    "static/media/gteestiprodisplay_bold.woff2": "/AleksandrSdkv/hakaton/static/media/gteestiprodisplay_bold.8ec43edea3891663bbfa.woff2",
+    "static/media/gteestiprodisplay_regular.woff2": "/AleksandrSdkv/hakaton/static/media/gteestiprodisplay_regular.35ef591ddcff8f496d65.woff2",
+    "static/media/partFour.png": "/AleksandrSdkv/hakaton/static/media/partFour.e92a25e354538e47fc04.png",
+    "static/media/partThree.png": "/AleksandrSdkv/hakaton/static/media/partThree.a2ae8685b42a04882051.png",
+    "static/media/partTwo.png": "/AleksandrSdkv/hakaton/static/media/partTwo.6ffa45743347f702be07.png",
+    "static/media/partFive.png": "/AleksandrSdkv/hakaton/static/media/partFive.9394d9a7efd687f0a89c.png",
+    "static/media/partSix.png": "/AleksandrSdkv/hakaton/static/media/partSix.6c8d350910b0b7b6c0df.png",
+    "static/media/partOne.png": "/AleksandrSdkv/hakaton/static/media/partOne.2cb20fdf2320a9dabcb9.png",
+    "static/media/звездочкаблок.png": "/AleksandrSdkv/hakaton/static/media/звездочкаблок.0f381403ba8f92002609.png",
+    "static/media/footerLogo.svg": "/AleksandrSdkv/hakaton/static/media/footerLogo.80f1dee2339551583812.svg",
+    "static/media/logoMap.svg": "/AleksandrSdkv/hakaton/static/media/logoMap.256d8755d02f1e931af1.svg",
+    "static/media/logo.svg": "/AleksandrSdkv/hakaton/static/media/logo.98c65e9f53342ec13b5f.svg",
+    "static/media/options.svg": "/AleksandrSdkv/hakaton/static/media/options.69ee85af4512e21773e9.svg",
+    "static/media/VectorOK.svg": "/AleksandrSdkv/hakaton/static/media/VectorOK.8a91a70bfc1682b01d9b.svg",
+    "static/media/VectorTime.svg": "/AleksandrSdkv/hakaton/static/media/VectorTime.bbf414423f0f6fc1385f.svg",
+    "index.html": "/AleksandrSdkv/hakaton/index.html",
+    "static/media/lupa.svg": "/AleksandrSdkv/hakaton/static/media/lupa.7ae60c89683042d4d052.svg",
+    "static/media/progessBtn.svg": "/AleksandrSdkv/hakaton/static/media/progessBtn.a5ce993d8ed33c3dfdd6.svg",
+    "static/media/cardRed.svg": "/AleksandrSdkv/hakaton/static/media/cardRed.03aa6408c3db9fe8606a.svg",
+    "static/media/Ellipse2.svg": "/AleksandrSdkv/hakaton/static/media/Ellipse2.064637facab18738899be570197e6b4d.svg",
+    "main.6363a14e.css.map": "/AleksandrSdkv/hakaton/static/css/main.6363a14e.css.map",
+    "main.1aca1f20.js.map": "/AleksandrSdkv/hakaton/static/js/main.1aca1f20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6363a14e.css",
+    "static/js/main.1aca1f20.js"
+  ]
+}
