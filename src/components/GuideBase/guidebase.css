@@ -1,0 +1,42 @@
+.Guidebase {
+    margin: 0 65px 0 65px;
+}
+
+.Guidebase__container {
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 31px;
+    display: grid;
+    margin-top: 80px;
+    padding: 0;
+}
+
+.Guidebase__item {
+    grid-column: 4 span;
+    padding: 45px 41px 42px 41px;
+    min-height: 280px;
+    border: 1px solid #8C64D8;
+    border-radius: 32px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.Guidebase__quest {
+    max-width: 1308px;
+    height: 452px;
+    background-image: url(../../images/Frame.png);
+    background-repeat: no-repeat;
+    margin: 90px 0 90px 0;
+    background-size: contain;
+}
+
+.Guidebase__item:nth-child(1) {
+    grid-row: 1/3;
+}
+
+.Guidebase__item:nth-child(6) {
+    grid-row: 3/5;
+}
+
+.Guidebase__item:nth-child(7) {
+    grid-column: 5/-1;
+}

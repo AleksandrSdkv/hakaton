@@ -1,0 +1,43 @@
+.Footer__info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 337px;
+    flex-direction: column;
+}
+
+.Footer__adress {
+    margin-bottom: 30px;
+}
+
+.Footer__adress-title {
+    padding-bottom: 8px;
+}
+
+.Footer__week-title {
+    padding-bottom: 8px;
+    padding-right: 30px;
+}
+
+.Footer__timesheet {
+    display: flex;
+}
+
+.Footer__week {
+    margin-bottom: 30px;
+}
+
+.Footer__email {
+    margin-bottom: 30px;
+}
+
+.Footer__number {}
+
+.Footer__paragraph {
+    margin: 0;
+}
+
+.Footer__email-title {
+    padding-bottom: 8px;
+}

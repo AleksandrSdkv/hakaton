@@ -1,0 +1,23 @@
+.Header__search {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 18px;
+}
+
+.Header__nav-bar-search {
+    background-image: url(../../../images/lupa.svg);
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+.Header__nav-bar-options {
+    background-image: url(../../../images/options.svg);
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    background-repeat: no-repeat;
+}

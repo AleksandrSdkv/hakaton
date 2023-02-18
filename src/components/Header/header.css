@@ -1,0 +1,8 @@
+@import url(../Header/__logo/Header__logo.css);
+@import url(../Header/__search/Header__search.css);
+@import url(../Header/__nav-bar/Header__nav-bar.css);
+.Header {
+    display: flex;
+    margin: 50px 65px 40px 65px;
+    justify-content: space-between;
+}

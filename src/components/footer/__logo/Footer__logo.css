@@ -1,0 +1,13 @@
+.Footer__logo {
+    background-image: url(../../../images/footerLogo.svg);
+    width: 144px;
+    height: 21px;
+    margin: 0;
+    background-repeat: no-repeat;
+    margin-right: 79px;
+    background-size: cover;
+}
+
+.Footer__logo:hover {
+    cursor: pointer;
+}

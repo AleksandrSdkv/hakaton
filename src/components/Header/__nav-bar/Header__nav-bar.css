@@ -1,0 +1,22 @@
+.Header__nav-bar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 100px;
+    display: flex;
+}
+
+.Header__nav-item:nth-last-of-type(3) {
+    color: #8C64D8;
+}
+
+.Header__nav-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.Header__nav-item:hover {
+    cursor: pointer;
+    opacity: .7;
+}

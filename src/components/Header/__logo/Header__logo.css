@@ -1,0 +1,11 @@
+.Header__logo {
+    background-image: url(../../../images/logo.svg);
+    width: 144px;
+    height: 21px;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+.Header__logo:hover {
+    cursor: pointer;
+}
