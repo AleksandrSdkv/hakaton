@@ -1,5 +1,5 @@
 import './footer.css';
-
+import { Link } from 'react-router-dom'
 function Footer() {
 
     return (
@@ -12,8 +12,8 @@ function Footer() {
                         <div className='Footer__logo'></div>
                         <ul className='Footer__nav-bar'>
                             <li className='Footer__nav-item'>Главная</li>
-                            <li className='Footer__nav-item'>Справочник</li>
-                            <li className='Footer__nav-item'>Мой кабинет</li>
+                            <Link to="/" className='Footer__nav-item'>Справочник</Link>
+                            <Link to="/map" className='Footer__nav-item'>Мой кабинет</Link>
                             <li className='Footer__nav-item'>Команда</li>
                         </ul>
                     </nav>

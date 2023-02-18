@@ -1,0 +1,40 @@
+.Header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Header__logo_map {
+    background-image: url(../../../images/logoMap.svg);
+    width: 144px;
+    height: 21px;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+.Header__nav-bar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 100px;
+    display: flex;
+    text-decoration: none;
+}
+
+.Header__nav-item_map:nth-last-of-type(2) {
+    color: #DAEF14;
+}
+
+.Header__nav-item_map {
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.Header__nav-item_map :nth-last-of-type(1):hover {
+    opacity: 0.6;
+}
+
+.Header__nav-item_map :hover {
+    cursor: pointer;
+    opacity: .7;
+}

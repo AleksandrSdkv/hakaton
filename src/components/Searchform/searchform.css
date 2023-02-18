@@ -80,6 +80,41 @@
     color: #DAEF14;
 }
 
+.searchform__button_map:before {
+    content: "Найти";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.searchform__button_map {
+    width: 193px;
+    height: 40px;
+    margin-left: 29px;
+    cursor: pointer;
+    border: none;
+    background-color: #DAEF14;
+    border-radius: 20px;
+    color: #fff;
+    padding: 0;
+}
+
 .search_opened {
     display: flex;
+}
+
+.searchform__input_map {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid #DAEF14;
+    border-radius: 36px;
+    width: 1050px;
+    height: 40px;
+    padding-left: 22px;
+    color: #000000;
+    background-color: aliceblue;
 }

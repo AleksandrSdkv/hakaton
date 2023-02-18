@@ -4,16 +4,21 @@
     margin: 0;
     gap: 100px;
     display: flex;
+    text-decoration: none;
 }
 
-.Header__nav-item:nth-last-of-type(3) {
+.Header__nav-item:nth-last-of-type(2) {
     color: #8C64D8;
 }
 
-.Header__nav-item {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+.Header__nav-item:nth-last-of-type(1) {
+    text-decoration: none;
+    color: #252525;
+    cursor: pointer;
+}
+
+.Header__nav-item:nth-last-of-type(1):hover {
+    opacity: 0.6;
 }
 
 .Header__nav-item:hover {

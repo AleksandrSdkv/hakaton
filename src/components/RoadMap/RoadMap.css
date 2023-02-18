@@ -1,6 +1,180 @@
 .RoadMap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.RoadMap__map {
     width: 982px;
     height: 613px;
-    background-color: burlywood;
+    position: relative;
+    right: 155px;
+}
+
+.RoadMap_intro {
+    width: 100%;
+    height: 550px;
+    background: #8C64D8;
+    border-radius: 0px 0px 36px 36px;
+}
+
+.RoadMap__map_pngOne {
+    position: absolute;
+    width: 247.76px;
+    height: 226.07px;
+    left: 166.96px;
+    top: 320.01px;
+}
+
+.RoadMap__map_pngTwo {
+    position: absolute;
+    width: 255.16px;
+    height: 228px;
+    left: 543px;
+    top: 352px;
+}
+
+.RoadMap__map_pngTwo:hover~.RoadMap__map_message {
+    background-image: url(../../images/message.png);
+    width: 341px;
+    height: 99px;
+    right: -25px;
+    position: absolute;
+    top: 488px;
+}
+
+.RoadMap__map_pngThree {
+    position: absolute;
+    left: 343px;
+    top: 161px;
+    z-index: 2;
+}
+
+.RoadMap__map_pngFour {
+    position: absolute;
+    width: 254.81px;
+    height: 226.5px;
+    left: 529px;
+    top: 33px;
+}
+
+.RoadMap__map_pngFive {
+    position: absolute;
+    width: 247.5px;
+    height: 181.33px;
+    left: 734px;
+    top: 239px;
+}
+
+.RoadMap__map_pngSix {
+    position: absolute;
+    width: 219.13px;
+    height: 194.33px;
+    left: 926.77px;
+    top: 353.18px;
+}
+
+.RoadMap__map_lineLong {
+    position: absolute;
+    left: 360px;
+    top: 530.09px;
+}
+
+.RoadMap__map_line1 {
+    position: absolute;
+    width: 49.47px;
+    height: 37.5px;
+    top: 399px;
+    left: 546.78px;
+}
+
+.RoadMap__map_line2 {
+    position: absolute;
+    width: 67.47px;
+    height: 36.5px;
+    top: 209.79px;
+    left: 515.43px;
+}
+
+.RoadMap__map_line3 {
+    position: absolute;
+    width: 67.47px;
+    height: 36.5px;
+    top: 373.32px;
+    left: 938.31px;
+}
+
+.RoadMap__map_check {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 398px;
+    left: 225px;
+}
+
+.RoadMap__map_check2 {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 404px;
+    left: 586px;
+}
+
+.RoadMap__map_check3 {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 289px;
+    left: 408px;
+}
+
+.RoadMap__map_woman {
+    position: absolute;
+    width: 130.97px;
+    height: 149.86px;
+    top: 52.74px;
+    left: 262px;
+}
+
+.RoadMap_intro-titile {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 60px;
+    color: #DAEF14;
     text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.RoadMap_intro-paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    text-align: center;
+    width: 593px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.RoadMap_intro-group {
+    background-image: url(../../images/intro.png);
+    width: 614px;
+    height: 96px;
+    margin: auto;
+}
+
+.RoadMap__map_pngThree:hover~.RoadMap__map_elipse {
+    background-image: url(../../images/Ellipse2.svg);
+    position: absolute;
+    width: 361px;
+    height: 331px;
+    top: 169px;
+    left: 281px;
+    z-index: 1;
 }

@@ -1,36 +1,35 @@
-const BASE_URL = 'http://localhost:3001/';
+const BASE_URL = 'http://185.231.206.160/';
+
+
 
 const mainApi = ({
-    method = 'POST',
-    url,
-    data,
+    method = 'GET',
+    url
 }) => {
-
     return fetch(`${BASE_URL}${url}`,
         {
             method,
             headers: {
-                'Accept': 'application/json',
-                'content-type': 'application/json',
+                "Content-Type": "text/plain"
             },
-            ...!!data && { body: JSON.stringify(data) }
         }
     ).then((response) => {
+
         if (!response.ok) return Promise.reject(`Упс, что-то пошло не так ${response.status}!!!`);
         return response.json();
     });
 }
 
-export const getInfo = () => {
+export const getArticle = () => {
     return mainApi({
-        url: 'reference',
-        method: 'GET',
-
+        url: 'api/Article'
     })
 }
-export const getArticle = (id) => {
+export const getArticleId = (id) => {
     return mainApi({
         url: `article/${id}`,
         method: 'GET',
     })
 }
+
+

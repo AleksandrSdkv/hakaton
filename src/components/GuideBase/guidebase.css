@@ -40,3 +40,38 @@
 .Guidebase__item:nth-child(7) {
     grid-column: 5/-1;
 }
+
+.Guidebase__item-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.Guidebase__item-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.Guidebase__item-icon {
+    background-image: url('../../images/cardRed.svg');
+    width: 56px;
+    height: 56px;
+}
+
+.Guidebase__item-icon:hover {
+    transform: scale(1.15);
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+
+.Guidebase__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Guidebase__logo {
+    background-image: url('../../images/Vector.png');
+    width: 56px;
+    height: 56px;
+}

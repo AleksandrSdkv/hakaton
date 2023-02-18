@@ -1,9 +1,11 @@
 import './searchform.css';
 import { Formik, Field, Form } from "formik";
 import { SchemaForSearch } from '../../validations/validationsSearch';
-
+import { useLocation } from 'react-router-dom';
 function Searchform({ isOpen }) {
-    console.log(isOpen)
+    const locations = useLocation();
+    const searchMap = locations.pathname === "/map" ? 'searchform__input_map' : 'searchform__input'
+    const buttomMap = locations.pathname === "/map" ? 'searchform__button_map' : 'searchform__button'
     return (
         <Formik
             initialValues={{
@@ -18,8 +20,8 @@ function Searchform({ isOpen }) {
                             {errors.search &&
                                 touched.search && <div className="SearchForm__error">{errors.search}</div>}
                         </div>
-                        <Field className='searchform__input' type="text" name='filmName' placeholder="Введите запрос" />
-                        <button className='searchform__button' type="submit"></button>
+                        <Field className={searchMap} type="text" name='filmName' placeholder="Введите запрос" />
+                        <button className={buttomMap} type="submit"></button>
                     </section >
 
                 </Form>)}

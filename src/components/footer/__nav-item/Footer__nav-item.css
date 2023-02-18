@@ -1,11 +1,13 @@
-.Footer__nav-item:nth-last-of-type(3) {
-    color: #8C64D8;
-}
-
 .Footer__nav-item {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    text-decoration: none;
+    color: black;
+}
+
+.Footer__nav-item:nth-last-of-type(2) {
+    color: #8C64D8;
 }
 
 .Footer__nav-item:hover {
@@ -17,6 +19,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 100px;
+    gap: 69px;
     display: flex;
+    margin-right: 75px;
 }

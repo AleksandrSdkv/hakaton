@@ -1,21 +1,21 @@
-import './header.css';
+import './Header_map.css';
 import { Link } from 'react-router-dom'
+
 function Header({ onSearch }) {
     const onClickSearch = () => {
         onSearch()
     }
 
-
     return (
         <>
             <header className='Header'>
-                <div className="Header__logo"></div>
+                <div className='Header__logo_map'></div>
                 <nav>
                     <ul className='Header__nav-bar'>
-                        <li className='Header__nav-item'>Главная</li>
-                        <li className='Header__nav-item'>Справочник</li>
-                        <Link to="/map" className='Header__nav-item'>Мой кабинет</Link>
-                        <li className='Header__nav-item'>Команда</li>
+                        <li className='Header__nav-item_map '>Главная</li>
+                        <Link to="/" className='Header__nav-item_map '>Справочник</Link>
+                        <li className='Header__nav-item_map '>Мой кабинет</li>
+                        <li className='Header__nav-item_map '>Команда</li>
                     </ul>
                 </nav>
                 <nav>
