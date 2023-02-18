@@ -1,5 +1,5 @@
 import Header from '../Header/Header';
-import Footer from '../footer/Footer';
+import Footer from '../Footer/Footer';
 import Searchform from '../Searchform/Searchform';
 import './guidebase.css'
 import { useState, useEffect } from 'react';
