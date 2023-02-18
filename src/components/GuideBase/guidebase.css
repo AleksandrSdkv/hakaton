@@ -12,7 +12,7 @@
 
 .Guidebase__item {
     grid-column: 4 span;
-    padding: 45px 41px 42px 41px;
+    padding: 45px 10px 42px 20px;
     min-height: 280px;
     border: 1px solid #8C64D8;
     border-radius: 32px;
@@ -45,6 +45,7 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
+    margin: 0;
 }
 
 .Guidebase__item-text {
@@ -57,6 +58,8 @@
     background-image: url('../../images/cardRed.svg');
     width: 56px;
     height: 56px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .Guidebase__item-icon:hover {
@@ -74,4 +77,6 @@
     background-image: url('../../images/Vector.png');
     width: 56px;
     height: 56px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }

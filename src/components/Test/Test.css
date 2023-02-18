@@ -1,0 +1,50 @@
+.Test {
+    margin: 20px 100px 50px;
+}
+
+.Test__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #8C64D8;
+}
+
+.Test__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #252525;
+    text-align: center;
+}
+
+.Test__time-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #8C64D8;
+    margin: 0;
+    width: 194px;
+}
+
+.Test__time-clock {
+    background-image: url(../../images/VectorTime.svg);
+    width: 41px;
+    height: 41px;
+}
+
+.Test__time {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.Test__back-btn {
+    text-decoration: none;
+    color: #8C64D8;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}

@@ -1,6 +1,14 @@
 .RoadMap__progress {
-    background-image: url(../../../images/шкала.svg);
-    width: 1086px;
+    border: 1px solid #DAEF14;
+    border-radius: 20px;
+    width: 900px;
+    height: 15px;
+}
+
+.RoadMap__progress_active {
+    background-color: #DAEF14;
+    ;
+    border-radius: 20px;
     height: 15px;
 }
 
@@ -67,12 +75,25 @@
     justify-content: space-between;
     align-items: stretch;
     margin-bottom: 30px;
+    align-items: center;
 }
 
-.RoadMap__task-complite {
+.RoadMap__task-complite_yes {
     background-image: url(../../../images/VectorOK.svg);
     width: 33px;
     height: 33px;
+    border: none;
+    cursor: pointer;
+}
+
+.RoadMap__task-complite_no {
+    background-image: url(../../../images/progessBtn.svg);
+    width: 25px;
+    height: 13.77px;
+    border: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .RoadMap__task_text {
@@ -93,10 +114,20 @@
     color: #8C64D8;
     margin-bottom: 100px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .RoadMap__test:hover {
     transform: scale(1.01);
     transition: transform 0.4s ease;
     cursor: pointer;
+}
+
+.RoadMap__progress-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #8C64D8;
+    margin-top: 10px;
 }
