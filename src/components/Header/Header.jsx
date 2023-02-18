@@ -1,11 +1,11 @@
 import './header.css';
 import { Link } from 'react-router-dom'
+
 function Header({ onSearch }) {
     const onClickSearch = () => {
         onSearch()
     }
-
-
+    
     return (
         <>
             <header className='Header'>
