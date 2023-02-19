@@ -1,5 +1,5 @@
 import './RoadMap-main.css';
-import Footer from '../../das/Footer';
+import Footer from '../../Footer/Footer';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 function RoadMapMain({ isOpen }) {
