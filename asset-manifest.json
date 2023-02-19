@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hakaton/static/css/main.3832943a.css",
-    "main.js": "/hakaton/static/js/main.5c4eab28.js",
+    "main.css": "/hakaton/static/css/main.5fcc17d5.css",
+    "main.js": "/hakaton/static/js/main.4cdb54de.js",
     "static/media/gteestiprodisplay_bold.woff": "/hakaton/static/media/gteestiprodisplay_bold.c012aa7da9ad7a8a1773.woff",
     "static/media/gteestiprodisplay_medium.woff": "/hakaton/static/media/gteestiprodisplay_medium.08ce741439dff831211e.woff",
     "static/media/gteestiprodisplay_regular.woff": "/hakaton/static/media/gteestiprodisplay_regular.d7a05aaaa91eb4e1d5c7.woff",
@@ -27,11 +27,11 @@
     "static/media/progessBtn.svg": "/hakaton/static/media/progessBtn.a5ce993d8ed33c3dfdd6.svg",
     "static/media/cardRed.svg": "/hakaton/static/media/cardRed.03aa6408c3db9fe8606a.svg",
     "static/media/Ellipse2.svg": "/hakaton/static/media/Ellipse2.064637facab18738899be570197e6b4d.svg",
-    "main.3832943a.css.map": "/hakaton/static/css/main.3832943a.css.map",
-    "main.5c4eab28.js.map": "/hakaton/static/js/main.5c4eab28.js.map"
+    "main.5fcc17d5.css.map": "/hakaton/static/css/main.5fcc17d5.css.map",
+    "main.4cdb54de.js.map": "/hakaton/static/js/main.4cdb54de.js.map"
   },
   "entrypoints": [
-    "static/css/main.3832943a.css",
-    "static/js/main.5c4eab28.js"
+    "static/css/main.5fcc17d5.css",
+    "static/js/main.4cdb54de.js"
   ]
 }
