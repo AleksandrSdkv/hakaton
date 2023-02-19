@@ -9,6 +9,7 @@ function RoadMap() {
     const [isEditSearchOpen, setIsEditSearchOpen] = useState('');
     const [platformOpen, setPlatformOpen] = useState('');
     const [platformOpenOn, setPlatformOpenOn] = useState('RoadMap__map_pngTwo');
+    const [platformOpenTwo, setPlatformOpenTwo] = useState('RoadMap__map_elipseWithe');
 
     function handleEditSearchClick() {
         if (isEditSearchOpen === 'search_opened') {
@@ -21,6 +22,7 @@ function RoadMap() {
     const handleOpenPlatform = () => {
         setPlatformOpen('RoadMap__map_elipse_part_two');
         setPlatformOpenOn('RoadMap__map_pngTwo_on');
+        setPlatformOpenTwo('')
     }
 
     return (
@@ -39,14 +41,15 @@ function RoadMap() {
                 </div>
                 <div className='RoadMap__map'>
 
+
+                    <div className='RoadMap__map_elipseOne' /><div />
+                    <div className='RoadMap__map_elipse' /><div />
+                    <div className={platformOpen} /><div />
+                    <div className={platformOpenTwo} /><div />
+
                     <img className='RoadMap__map_pngOne' src={maps[0].image} alt="" />
                     <img className={platformOpenOn} src={maps[1].image} alt="" />
                     <img className='RoadMap__map_pngThree' src={maps[2].image} alt="" />
-
-                    <div className='RoadMap__map_elipse' /><div />
-                    <div className={platformOpen} /><div />
-
-
                     <img className='RoadMap__map_pngFour' src={maps[3].image} alt="" />
                     <img className='RoadMap__map_pngFive' src={maps[4].image} alt="" />
                     <img className='RoadMap__map_pngSix' src={maps[5].image} alt="" />
@@ -59,8 +62,7 @@ function RoadMap() {
                     <img className='RoadMap__map_check3' src={maps[12].image} alt="" />
                     <img className='RoadMap__map_woman' src={maps[13].image} alt="" />
                     <div className='RoadMap__map_message' /><div />
-                    {/* 
-                    <div className='RoadMap__map_off' /><div /> */}
+
 
 
                 </div>

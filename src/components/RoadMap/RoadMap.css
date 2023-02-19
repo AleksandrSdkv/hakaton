@@ -29,6 +29,30 @@
     z-index: 2;
 }
 
+.RoadMap__map_elipseOne {
+    background-image: url(../../images/1.png);
+    width: 341px;
+    height: 99px;
+    right: 265px;
+    position: absolute;
+    top: 404px;
+    background-repeat: no-repeat;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.RoadMap__map_elipseWithe {
+    width: 44px;
+    height: 44px;
+    right: 352px;
+    position: absolute;
+    top: 403px;
+    background-repeat: no-repeat;
+    z-index: 2;
+    background: white;
+    border-radius: 50%;
+}
+
 .RoadMap__map_pngTwo {
     position: absolute;
     width: 255.16px;
@@ -37,6 +61,7 @@
     top: 352px;
     opacity: .7;
     z-index: 2;
+    cursor: pointer;
 }
 
 .RoadMap__map_pngTwo_on {
@@ -55,6 +80,7 @@
     right: -25px;
     position: absolute;
     top: 488px;
+    z-index: 2;
 }
 
 .RoadMap__map_pngThree {
@@ -62,6 +88,7 @@
     left: 343px;
     top: 161px;
     z-index: 2;
+    cursor: pointer;
 }
 
 .RoadMap__map_pngFour {
@@ -70,6 +97,7 @@
     height: 226.5px;
     left: 529px;
     top: 33px;
+    cursor: pointer;
 }
 
 .RoadMap__map_pngFive {

@@ -1,0 +1,12 @@
+@import url(./__bottom-submit/form__bottom-submit.css);
+@import url(./__group/form__group.css);
+@import url(./__input/form__input.css);
+@import url(./__input/_type/form__input_type_about.css);
+@import url(./__input/_type/form__input_type_name.css);
+@import url(./__title/form__title.css);
+.form__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

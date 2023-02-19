@@ -10,7 +10,7 @@ function RoadMapMain({ isOpen }) {
     useEffect(() => {
         setStateComplite(stateWeekOne)
         if (stateWeekOne === 100) {
-            console.log(stateWeekOne)
+          
             isOpen()
         }
     }, [stateWeekOne])
