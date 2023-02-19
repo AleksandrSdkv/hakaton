@@ -7,6 +7,9 @@ import { useState } from 'react';
 import RoadMapMain from './RoadMap-main/RoadMap-main';
 function RoadMap() {
     const [isEditSearchOpen, setIsEditSearchOpen] = useState('');
+    const [platformOpen, setPlatformOpen] = useState('');
+    const [platformOpenOn, setPlatformOpenOn] = useState('RoadMap__map_pngTwo');
+
     function handleEditSearchClick() {
         if (isEditSearchOpen === 'search_opened') {
             setIsEditSearchOpen('');
@@ -14,10 +17,14 @@ function RoadMap() {
             setIsEditSearchOpen('search_opened');
         }
     }
-    console.log(maps)
+
+    const handleOpenPlatform = () => {
+        setPlatformOpen('RoadMap__map_elipse_part_two');
+        setPlatformOpenOn('RoadMap__map_pngTwo_on');
+    }
+
     return (
         <>
-
             <main className='RoadMap'>
 
                 <div className='RoadMap_intro'>
@@ -33,9 +40,13 @@ function RoadMap() {
                 <div className='RoadMap__map'>
 
                     <img className='RoadMap__map_pngOne' src={maps[0].image} alt="" />
-                    <img className='RoadMap__map_pngTwo' src={maps[1].image} alt="" />
+                    <img className={platformOpenOn} src={maps[1].image} alt="" />
                     <img className='RoadMap__map_pngThree' src={maps[2].image} alt="" />
+
                     <div className='RoadMap__map_elipse' /><div />
+                    <div className={platformOpen} /><div />
+
+
                     <img className='RoadMap__map_pngFour' src={maps[3].image} alt="" />
                     <img className='RoadMap__map_pngFive' src={maps[4].image} alt="" />
                     <img className='RoadMap__map_pngSix' src={maps[5].image} alt="" />
@@ -48,8 +59,14 @@ function RoadMap() {
                     <img className='RoadMap__map_check3' src={maps[12].image} alt="" />
                     <img className='RoadMap__map_woman' src={maps[13].image} alt="" />
                     <div className='RoadMap__map_message' /><div />
+                    {/* 
+                    <div className='RoadMap__map_off' /><div /> */}
+
+
                 </div>
-                <RoadMapMain />
+                <RoadMapMain
+                    isOpen={handleOpenPlatform}
+                />
             </main>
         </>
     )

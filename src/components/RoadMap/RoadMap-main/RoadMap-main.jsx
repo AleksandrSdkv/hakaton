@@ -2,13 +2,17 @@ import './RoadMap-main.css';
 import Footer from '../../Footer/Footer';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-function RoadMapMain() {
+function RoadMapMain({ isOpen }) {
     const [stateWeekOne, setStateWeekOne] = useState(0);
     const [stateWeekTwo, setStateWeekTwo] = useState(0);
     const [stateComplite, setStateComplite] = useState(0);
     const [stateCompliteTwo, setStateCompliteTwo] = useState(0);
     useEffect(() => {
         setStateComplite(stateWeekOne)
+        if (stateWeekOne === 100) {
+            console.log(stateWeekOne)
+            isOpen()
+        }
     }, [stateWeekOne])
     useEffect(() => {
         setStateCompliteTwo(stateWeekTwo)

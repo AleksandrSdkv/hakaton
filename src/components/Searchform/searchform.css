@@ -103,6 +103,7 @@
 
 .search_opened {
     display: flex;
+    justify-content: center;
 }
 
 .searchform__input_map {

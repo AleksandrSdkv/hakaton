@@ -1,7 +1,7 @@
 import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
+import Footer from '../Footer/Footer.jsx';
 import Searchform from '../Searchform/Searchform';
-import './guidebase.css'
+import './guidebase.css';
 import { useState, useEffect } from 'react';
 import GuidebaseContainer from './GuidebaseContainer';
 import { getArticle } from '../../utils/apiDB'

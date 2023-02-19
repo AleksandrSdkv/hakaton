@@ -5,8 +5,7 @@
 }
 
 body {
-    margin: 0;
-    font-family: GT Eesti Pro Display, 'Thin', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'GT Eesti Pro Display', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
@@ -15,6 +14,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    margin: 0;
+    margin: auto;
     max-width: 1440px;
 }

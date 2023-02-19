@@ -3,7 +3,6 @@ import React from 'react';
 import './guidebase.css';
 
 function GuidebaseContainer({ item }) {
-    console.log(item)
     return (
         <>
             <li className='Guidebase__item'>

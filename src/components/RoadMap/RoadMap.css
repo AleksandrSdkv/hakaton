@@ -26,6 +26,7 @@
     height: 226.07px;
     left: 166.96px;
     top: 320.01px;
+    z-index: 2;
 }
 
 .RoadMap__map_pngTwo {
@@ -34,6 +35,17 @@
     height: 228px;
     left: 543px;
     top: 352px;
+    opacity: .7;
+    z-index: 2;
+}
+
+.RoadMap__map_pngTwo_on {
+    position: absolute;
+    width: 255.16px;
+    height: 228px;
+    left: 543px;
+    top: 352px;
+    z-index: 2;
 }
 
 .RoadMap__map_pngTwo:hover~.RoadMap__map_message {
@@ -169,12 +181,28 @@
     margin: auto;
 }
 
-.RoadMap__map_pngThree:hover~.RoadMap__map_elipse {
+.RoadMap__map_elipse {
     background-image: url(../../images/Ellipse2.svg);
     position: absolute;
     width: 361px;
     height: 331px;
-    top: 169px;
-    left: 281px;
+    top: 298px;
+    left: 150px;
     z-index: 1;
+}
+
+.RoadMap__map_elipse_part_two {
+    background-image: url(../../images/Ellipse2.svg);
+    position: absolute;
+    width: 361px;
+    height: 331px;
+    top: 319px;
+    left: 491px;
+    z-index: 1;
+}
+
+.RoadMap__map_off {
+    background-image: url(../../images/EllipsOn.png);
+    width: 40px;
+    height: 40px;
 }
