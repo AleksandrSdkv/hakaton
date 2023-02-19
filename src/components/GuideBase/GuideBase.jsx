@@ -71,6 +71,7 @@ function GuideBase() {
                         {/* <p className='Guidebase__item-text'>{item.text}</p> */}
 
                         <span className='Guidebase__item-about'>фывфывфы</span>
+                        
                     </li>
                 </ul>
                 <div className='Guidebase__quest'></div>
