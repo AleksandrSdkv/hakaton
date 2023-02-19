@@ -45,33 +45,99 @@ function GuideBase() {
                     <li className='Guidebase__item'>
                         <div className='Guidebase__header'>
                             <div className='Guidebase__logo'></div>
-                            <h2 className='Guidebase__item-title'>aaaaaaaaa</h2>
+                            <h2 className='Guidebase__item-title'>Рассылка</h2>
                             <div className='Guidebase__item-icon' onClick={popupOpen}></div>
                         </div>
                         {/* <p className='Guidebase__item-text'>{item.text}</p> */}
 
-                        <span className='Guidebase__item-about'>фывфывфы</span>
+                        <span className='Guidebase__item-about'>Новости — это сообщения о каких-то событиях. В блогах можно размещать новости своей ниши с комментариями экспертов компании, чтобы проинформировать заказчиков и показать, что вы в теме</span>
                     </li>
                     <li className='Guidebase__item'>
                         <div className='Guidebase__header'>
                             <div className='Guidebase__logo'></div>
-                            <h2 className='Guidebase__item-title'>фывфывфыв</h2>
+                            <h2 className='Guidebase__item-title'>О компании</h2>
                             <div className='Guidebase__item-icon'></div>
                         </div>
                         {/* <p className='Guidebase__item-text'>{item.text}</p> */}
 
-                        <span className='Guidebase__item-about'>фывфывфы</span>
+                        <span className='Guidebase__item-about'>Новости — это сообщения о каких-то событиях. В блогах можно размещать новости своей ниши с комментариями экспертов компании, чтобы проинформировать заказчиков и показать, что вы в теме</span>
                     </li>
                     <li className='Guidebase__item'>
                         <div className='Guidebase__header'>
                             <div className='Guidebase__logo'></div>
-                            <h2 className='Guidebase__item-title'>фывфывфыв</h2>
+                            <h2 className='Guidebase__item-title'>Наши проекты</h2>
                             <div className='Guidebase__item-icon'></div>
                         </div>
                         {/* <p className='Guidebase__item-text'>{item.text}</p> */}
 
-                        <span className='Guidebase__item-about'>фывфывфы</span>
-                        
+                        <span className='Guidebase__item-about'>Новости — это сообщения о каких-то событиях. В блогах можно размещать новости своей ниши с комментариями экспертов компании, чтобы проинформировать заказчиков и показать, что вы в теме</span>
+
+                    </li>
+                    <li className='Guidebase__item'>
+                        <div className='Guidebase__header'>
+                            <div className='Guidebase__logo'></div>
+                            <h2 className='Guidebase__item-title'>Наши проекты</h2>
+                            <div className='Guidebase__item-icon'></div>
+                        </div>
+                        {/* <p className='Guidebase__item-text'>{item.text}</p> */}
+
+                        <span className='Guidebase__item-about'>Новости — это сообщения о каких-то событиях. В блогах можно размещать новости своей ниши с комментариями экспертов компании, чтобы проинформировать заказчиков и показать, что вы в теме</span>
+
+                    </li>
+                    <li className='Guidebase__item'>
+                        <div className='Guidebase__header'>
+                            <div className='Guidebase__logo'></div>
+                            <h2 className='Guidebase__item-title'>Наши проекты</h2>
+                            <div className='Guidebase__item-icon'></div>
+                        </div>
+                        {/* <p className='Guidebase__item-text'>{item.text}</p> */}
+
+                        <span className='Guidebase__item-about'>Новости — это сообщения о каких-то событиях. В блогах можно размещать новости своей ниши с комментариями экспертов компании, чтобы проинформировать заказчиков и показать, что вы в теме</span>
+
+                    </li>
+                    <li className='Guidebase__item'>
+                        <div className='Guidebase__header'>
+                            <div className='Guidebase__logo'></div>
+                            <h2 className='Guidebase__item-title'>Наши проекты</h2>
+                            <div className='Guidebase__item-icon'></div>
+                        </div>
+                        {/* <p className='Guidebase__item-text'>{item.text}</p> */}
+
+                        <span className='Guidebase__item-about'>Новости — это сообщения о каких-то событиях. В блогах можно размещать новости своей ниши с комментариями экспертов компании, чтобы проинформировать заказчиков и показать, что вы в теме</span>
+
+                    </li>
+                    <li className='Guidebase__item'>
+                        <div className='Guidebase__header'>
+                            <div className='Guidebase__logo'></div>
+                            <h2 className='Guidebase__item-title'>Наши проекты</h2>
+                            <div className='Guidebase__item-icon'></div>
+                        </div>
+                        {/* <p className='Guidebase__item-text'>{item.text}</p> */}
+
+                        <span className='Guidebase__item-about'>Новости — это сообщения о каких-то событиях. В блогах можно размещать новости своей ниши с комментариями экспертов компании, чтобы проинформировать заказчиков и показать, что вы в теме</span>
+
+                    </li>
+                    <li className='Guidebase__item'>
+                        <div className='Guidebase__header'>
+                            <div className='Guidebase__logo'></div>
+                            <h2 className='Guidebase__item-title'>Наши проекты</h2>
+                            <div className='Guidebase__item-icon'></div>
+                        </div>
+                        {/* <p className='Guidebase__item-text'>{item.text}</p> */}
+
+                        <span className='Guidebase__item-about'>Новости — это сообщения о каких-то событиях. В блогах можно размещать новости своей ниши с комментариями экспертов компании, чтобы проинформировать заказчиков и показать, что вы в теме</span>
+
+                    </li>
+                    <li className='Guidebase__item'>
+                        <div className='Guidebase__header'>
+                            <div className='Guidebase__logo'></div>
+                            <h2 className='Guidebase__item-title'>Наши проекты</h2>
+                            <div className='Guidebase__item-icon'></div>
+                        </div>
+                        {/* <p className='Guidebase__item-text'>{item.text}</p> */}
+
+                        <span className='Guidebase__item-about'>Новости — это сообщения о каких-то событиях. В блогах можно размещать новости своей ниши с комментариями экспертов компании, чтобы проинформировать заказчиков и показать, что вы в теме</span>
+
                     </li>
                 </ul>
                 <div className='Guidebase__quest'></div>
