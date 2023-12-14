@@ -11,7 +11,7 @@
 
 * React Jsx
 * Css
-* Git
+* Grid
 * БЭМ
 
 ## Страница https://aleksandrsdkv.github.io/hakaton/#/
